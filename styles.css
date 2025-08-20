@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden; /* جلوگیری از اسکرول خوردن صفحه */
+    cursor: none; /* مخفی کردن نشانگر ماوس برای حس بهتر */
+}
+
+.hidden {
+    display: none; /* تمام عناصر مخفی */
+}
+
+#secretMessage {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+/* استایل‌های ساده برای کلید و قفل (می‌توانید از عکس استفاده کنید) */
+#key {
+    width: 50px;
+    height: 100px;
+    background-color: gold;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+#lock {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
